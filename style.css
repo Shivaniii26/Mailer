@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+}
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  margin: 2rem 0;
+}
+
+#main-body {
+  background-image: url("./Assets/PNG/2x/Asset\ 172x.png");
+  color: white;
+  padding: 3rem 3rem 0rem 3rem;
+}
+#main-body p {
+  margin: 1.5rem;
+}
+
+#white-box {
+  background-color: white;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  color: black;
+  padding: 3rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  /* height: 300rem;*/
+  align-items: center;
+  margin: 1rem;
+  justify-content: space-around;
+}
+
+#white-box #first-container img {
+  shape-outside: circle();
+}
+
+#white-box #first-container #left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+#white-box .flex-container h2 {
+  font-size: 4rem;
+}
+
+#white-box .flex-container p {
+  font-size: 2rem;
+}
+
+#white-box #second-container {
+  background: url("./Assets/PNG/1x/Asset\ 7.png") no-repeat center;
+  background-size: cover;
+  border-radius: 2.5rem;
+  margin: 1.5rem;
+}
+#red-background {
+  background: url("./Assets/PNG/1x/Asset\ 9.png") no-repeat center;
+  padding: 2rem;
+  color: white;
+}
+
+/* #white-box #third-container{
+  background-image: url("./Assets/PNG/1x/Asset\ 5.png") no repeat center;
+} */
+.block {
+  background: url("./Assets/PNG/1x/Asset\ 8.png") no-repeat center;
+  width: 20rem;
+  height: 22rem;
+  background-size: cover;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+#white-box #fifth-container {
+  background: url("./Assets/PNG/1x/Asset\ 16.png") no-repeat center;
+  background-size: cover;
+  border-radius: 2.5rem;
+  margin: 1.5rem;
+}
+
+.red-text {
+  color: orangered;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+#footer-section {
+  background: url("./Assets/PNG/1x/Asset\ 16.png");
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+#footer-section div img {
+  margin: 0 0.5rem;
+}
+
+@media (max-width: 998px) {
+  html {
+    font-size: 55%;
+  }
+}
+@media (max-width: 768px) {
+  html {
+    font-size: 45%;
+  }
+}
